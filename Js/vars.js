@@ -24,4 +24,7 @@ number *= 15.25589
 console.log("the number is:" + number)
 
 //just a number of decimals is with the function .toFixed("HERE NUMBER")
-console.log("the number is:" + number.toFixed(3))  
+console.log("the number is:" + number.toFixed(3))
+
+//FLOAT
+console.log("the number is:" + parseFloat(number.toFixed(3)))  
