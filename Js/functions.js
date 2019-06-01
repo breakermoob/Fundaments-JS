@@ -11,3 +11,10 @@ function printAge(n,e) {
 printAge(name,age)
 printAge(name1,age1)
 printAge(name2,age2)
+
+function printNameUpperCase(name){
+   name = this.name.toUpperCase()
+   console.log(name);
+}
+
+printNameUpperCase(this.name);
