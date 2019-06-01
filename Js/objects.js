@@ -11,7 +11,9 @@ var persona2 = {
 }
 
 function printDataPerson(person){
-   console.log('The name is '+person.nombre+' '+person.apellido+' and he have '+person.edad + ' years old')
+   //this is a short syntax for var nombre = person.nombre  -  var apellido = person.apellido ...
+   var { nombre,apellido,edad } = person
+   console.log('The name is '+nombre+' '+apellido+' and he have '+edad + ' years old')
 }
 printDataPerson(persona1);
 printDataPerson(persona2);
